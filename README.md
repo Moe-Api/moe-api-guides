@@ -1,12 +1,31 @@
-# Moe API 开源指南
+# AI API 中转与模型接入指南 | GPT、Claude、Gemini、Codex、New API
 
-面向国内开发者的 AI API 接入、配置与排障资料，覆盖 Claude Code、Codex CLI、Gemini CLI、New API 下游配置以及常见网关错误。
+面向国内开发者的 AI API 中转、第三方 API 接入、模型配置与网关排障资料。覆盖 OpenAI GPT、Claude、Gemini、Codex、Claude Code、Gemini CLI、Codex CLI，以及 New API 下游接入。
+
+## Moe API 快速访问
+
+需要稳定的 AI API 中转服务，可直接访问 **[Moe API](https://moeapi.com)**，查看可用模型、接口文档与接入方式。
+
+> 请以 Moe API 网站当前公布的模型、价格、限流和服务条款为准。不要在 GitHub issue、日志或截图中公开 API Key。
+
+## 你可以在这里找到什么
+
+- **AI API 中转**：GPT、Claude、Gemini 等模型的第三方 API 接入思路
+- **Claude Code 国内接入**：环境变量、兼容接口与常见错误定位
+- **Codex CLI 配置**：CLI 版本、Responses API 与第三方 endpoint 检查清单
+- **Gemini CLI 接入**：协议、模型名称、流式响应与兼容性验证
+- **New API 下游配置**：渠道、模型映射、超时、重试和限流设置
+- **GPT / Claude / Gemini 排障**：502、503、504、401、403、429 错误定位
 
 ## 推荐阅读
 
 - [AI CLI 国内接入指南](./ai-cli-cn-guide/README.md)：Claude Code、Codex CLI、Gemini CLI 的第三方 API 配置思路。
 - [New API 接入 Moe API](./new-api-moe-api/README.md)：从渠道配置到兼容性验证的检查清单。
 - [AI API 网关错误排查](./ai-api-troubleshooting/README.md)：502、503、504 的定位路径与可复制诊断命令。
+
+## 关键词
+
+`AI API` · `API 中转` · `GPT API` · `Claude API` · `Gemini API` · `Codex` · `Claude Code` · `Gemini CLI` · `Codex CLI` · `New API` · `OpenAI 兼容接口` · `Anthropic Messages` · `Responses API`
 
 ## 为什么单独维护这些内容
 
