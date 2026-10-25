@@ -4,7 +4,7 @@
 
 ## Moe API 快速访问
 
-需要稳定的 AI API 中转服务，可直接访问 **[Moe API](https://moeapi.com)**，查看可用模型、接口文档与接入方式。
+快速访问 **[Moe API 官网：https://moeapi.cloud](https://moeapi.cloud)**，查看可用模型、接口文档与接入方式。
 
 > 请以 Moe API 网站当前公布的模型、价格、限流和服务条款为准。不要在 GitHub issue、日志或截图中公开 API Key。
 
